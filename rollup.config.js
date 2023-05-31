@@ -15,6 +15,16 @@ export default {
           find: '@pages/*',
           replacement: path.resolve(projectRootDir, 'src/pages/*')
           // OR place `customResolver` here. See explanation below.
+        },
+        {
+          find: '@components/*',
+          replacement: path.resolve(projectRootDir, 'src/components/*')
+          // OR place `customResolver` here. See explanation below.
+        },
+        {
+          find: '@styles/*',
+          replacement: path.resolve(projectRootDir, 'src/styles/*')
+          // OR place `customResolver` here. See explanation below.
         }
       ],
       customResolver
